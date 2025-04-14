@@ -206,7 +206,7 @@ smallestSubarrayWithGivenSum([3, 4, 1, 1, 6], 8)//3
 - The time complexity of the above algorithm will be `O(N)`. The outer for loop runs for all elements, and the inner while loop processes each element only once; therefore, the time complexity of the algorithm will be `O(N+N)`), which is asymptotically equivalent to `O(N)`.
 - The algorithm runs in constant space `O(1)`.
 
-## Longest Substring with K Distinct Characters (medium)  ✅ [https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1](Solution)
+## Longest Substring with K Distinct Characters (medium)  ✅ [solution](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1)
 
 https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
 
