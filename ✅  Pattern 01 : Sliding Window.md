@@ -266,7 +266,7 @@ longestSubstringWithKdistinct("cbbebi", 3)//5, The longest substrings with no mo
 - The above algorithms time complexity will be `O(N)`, where `N` is the number of characters in the input string. The outer for loop runs for all characters, and the inner while loop processes each character only once; therefore, the time complexity of the algorithm will be `O(N+N)`, which is asymptotically equivalent to `O(N)`
 - The algorithms space complexity is `O(K)`, as we will be storing a maximum of `K+1` characters in the <b>HashMap</b>.
 
-## 🔎 Fruits into Baskets (medium)
+## 🔎 Fruits into Baskets (medium) ✅
 https://leetcode.com/problems/fruit-into-baskets/
 
 > Given an array of characters where each character represents a fruit tree, you are given <b>two baskets</b>, and your goal is to put the <b>maximum number of fruits in each basket</b>. The only restriction is that <b>each basket can have only one type of fruit</b>.
