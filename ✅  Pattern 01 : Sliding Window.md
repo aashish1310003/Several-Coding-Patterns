@@ -403,7 +403,7 @@ lengthOfLongestSubstringTwoDistinct('ccaabbb')//5
 
 
 
-## No-repeat Substring (hard)
+## No-repeat Substring (hard) ✅
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 > Given a string, find the <b>length of the longest substring</b>, which has <b>no repeating characters</b>.
@@ -451,7 +451,7 @@ nonRepeatSubstring("abccde")//3
 - The above algorithms time complexity will be `O(N)`, where `N` is the number of characters in the input string.
 - The algorithms space complexity will be `O(K)`, where `K` is the number of distinct characters in the input string. This also means `K<=N`, because in the worst case, the whole string might not have any repeating character, so the entire string will be added to the <b>HashMap</b>. Having said that, since we can expect a fixed set of characters in the input string (e.g., 26 for English letters), we can say that the algorithm runs in fixed space `O(1)`; in this case, we can use a fixed-size array instead of the <b>HashMap</b>.
 
-## Longest Substring with Same Letters after Replacement (hard)
+## Longest Substring with Same Letters after Replacement (hard) ✅
 https://leetcode.com/problems/longest-repeating-character-replacement/
 
 > Given a string with lowercase letters only, if you are allowed to <b>replace no more than `K` letters</b> with any letter, find the <b>length of the longest substring having the same letters</b> after replacement.
@@ -505,7 +505,7 @@ lengthOfLongestSubstring("abccde", 1)//3, Replace the 'b' or 'd' with 'c' to hav
 - The above algorithms time complexity will be `O(N)`, where `N` is the number of letters in the input string.
 - As we expect only the lower case letters in the input string, we can conclude that the space complexity will be `O(26)` to store each letters frequency in the <b>HashMap</b>, which is asymptotically equal to `O(1)`.
 
-## Longest Subarray with Ones after Replacement (hard)
+## Longest Subarray with Ones after Replacement (hard)  ✅
 https://leetcode.com/problems/max-consecutive-ones-iii/
 
 > Given an array containing `0`'s and `1`'s, if you are allowed to <b>replace no more than `K` `0`'s with `1`'s</b>, 
